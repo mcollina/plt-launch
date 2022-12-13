@@ -4,6 +4,10 @@
     "port": "{PORT}",
     "logger": {
       "level": "{PLT_SERVER_LOGGER_LEVEL}"
+    },
+    "cors": {
+      "origin": "https://platformatic.cloud",
+      "methods": ["GET", "POST", "PUT", "DELETE"]
     }
   },
   "core": {
